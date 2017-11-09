@@ -1,6 +1,8 @@
 package com.qiqian.speedcontrol.springboot.controller;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.qiqian.speedcontrol.springboot.manager.ScheduleRuleManager;
 import com.qiqian.speedcontrol.springboot.model.ScheduleRule;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -65,7 +67,7 @@ public class LearnResourceController {
         Map<String, Long> map = scheduleRuleManager.aggregate(scheduleRuleList);
 
         ModelAndView modelAndView = new ModelAndView("/speed");
-        modelAndView.addObject("configResult", JSON.toJSON(scheduleRuleList));
+        modelAndView.addObject("configResult", JSONObject.toJSONString(scheduleRuleList));
         modelAndView.addAllObjects(map);
 
 
