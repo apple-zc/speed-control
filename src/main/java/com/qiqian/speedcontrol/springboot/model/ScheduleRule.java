@@ -37,6 +37,14 @@ public class ScheduleRule {
         this.ruleCode = ruleCode;
     }
 
+    public Integer getRulePriority() {
+        return rulePriority;
+    }
+
+    public void setRulePriority(Integer rulePriority) {
+        this.rulePriority = rulePriority;
+    }
+
     public int getRuleStatus() {
         return ruleStatus;
     }
@@ -112,6 +120,11 @@ public class ScheduleRule {
      * 规则代码
      */
     private String ruleCode;
+
+    /**
+     * 规则优先级
+     */
+    private Integer rulePriority;
 
     /**
      * 规则状态
