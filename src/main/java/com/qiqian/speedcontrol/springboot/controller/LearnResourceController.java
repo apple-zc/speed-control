@@ -67,7 +67,7 @@ public class LearnResourceController {
         Map<String, Long> map = scheduleRuleManager.aggregate(scheduleRuleList);
 
         ModelAndView modelAndView = new ModelAndView("/speed");
-        modelAndView.addObject("configResult", JSONObject.toJSONString(scheduleRuleList));
+        modelAndView.addObject("configResult", JSON.toJSONString(scheduleRuleList, true));
         modelAndView.addAllObjects(map);
 
 
