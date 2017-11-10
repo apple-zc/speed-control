@@ -24,7 +24,7 @@ public class LearnResourceController {
     @Resource
     private ScheduleRuleManager scheduleRuleManager;
 
-    @RequestMapping("/speed")
+    @RequestMapping("/index")
     public ModelAndView speed() {
         ModelAndView modelAndView = new ModelAndView("/speed");
         return modelAndView;
