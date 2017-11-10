@@ -36,52 +36,54 @@
         <th>接单速率</th>
         <th>下发仓速率</th>
     </tr>
+
     <tr>
-        <td>其他</td>
-        <td><input type="text" name="main_other_speed" value="${main_isYace_other_}" /></td>
-        <td><input type="text" name="store_other_speed" value="${store_isYace_other_}" /></td>
+        <td>大电5000000000001</td>
+        <td><input type="text" name="main_5000000000001_speed" value="${main_5000000000001_}" /></td>
+        <td><input type="text" name="store_5000000000001_speed" value="${store_5000000000001_}" /></td>
     </tr>
 
     <tr>
         <td>商超5000000000002</td>
-        <td><input type="text" name="main_5000000000002_speed" value="${main_isYace_5000000000002_}" /></td>
-        <td><input type="text" name="store_5000000000002_speed" value="${store_isYace_5000000000002_}" /></td>
-    </tr>
-
-    <tr>
-        <td>小电5000000000014</td>
-        <td><input type="text" name="main_5000000000014_speed" value="${main_isYace_5000000000014_}" /></td>
-        <td><input type="text" name="store_5000000000014_speed" value="${store_isYace_5000000000014_}" /></td>
-    </tr>
-
-    <tr>
-        <td>大电5000000000001</td>
-        <td><input type="text" name="main_5000000000001_speed" value="${main_isYace_5000000000001_}" /></td>
-        <td><input type="text" name="store_5000000000001_speed" value="${store_isYace_5000000000001_}" /></td>
-    </tr>
-
-    <tr>
-        <td>美妆5000000000013</td>
-        <td><input type="text" name="main_5000000000013_speed" value="${main_isYace_5000000000013_}" /></td>
-        <td><input type="text" name="store_5000000000013_speed" value="${store_isYace_5000000000013_}" /></td>
-    </tr>
-
-    <tr>
-        <td>快消5000000000059</td>
-        <td><input type="text" name="main_5000000000059_speed" value="${main_isYace_5000000000059_}" /></td>
-        <td><input type="text" name="store_5000000000059_speed" value="${store_isYace_5000000000059_}" /></td>
+        <td><input type="text" name="main_5000000000002_speed" value="${main_5000000000002_}" /></td>
+        <td><input type="text" name="store_5000000000002_speed" value="${store_5000000000002_}" /></td>
     </tr>
 
     <tr>
         <td>保税5000000000009</td>
-        <td><input type="text" name="main_5000000000009_speed" value="${main_isYace_5000000000009_}" /></td>
-        <td><input type="text" name="store_5000000000009_speed" value="${store_isYace_5000000000009_}" /></td>
+        <td><input type="text" name="main_5000000000009_speed" value="${main_5000000000009_}" /></td>
+        <td><input type="text" name="store_5000000000009_speed" value="${store_5000000000009_}" /></td>
     </tr>
 
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>美妆5000000000013</td>
+        <td><input type="text" name="main_5000000000013_speed" value="${main_5000000000013_}" /></td>
+        <td><input type="text" name="store_5000000000013_speed" value="${store_5000000000013_}" /></td>
+    </tr>
+
+    <tr>
+        <td>小电5000000000014</td>
+        <td><input type="text" name="main_5000000000014_speed" value="${main_5000000000014_}" /></td>
+        <td><input type="text" name="store_5000000000014_speed" value="${store_5000000000014_}" /></td>
+    </tr>
+
+    <tr>
+        <td>快消5000000000059</td>
+        <td><input type="text" name="main_5000000000059_speed" value="${main_5000000000059_}" /></td>
+        <td><input type="text" name="store_5000000000059_speed" value="${store_5000000000059_}" /></td>
+    </tr>
+
+    <tr>
+
+        <td>其他</td>
+        <td><input type="text" name="main_other_speed" value="${main_other_}" /></td>
+        <td><input type="text" name="store_other_speed" value="${store_other_}" /></td>
+    </tr>
+
+    <tr>
+        <td>------------</td>
+        <td>------------</td>
+        <td>------------</td>
     </tr>
 
     <tr>
