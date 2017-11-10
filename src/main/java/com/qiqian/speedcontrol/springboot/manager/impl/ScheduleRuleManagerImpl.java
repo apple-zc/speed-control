@@ -15,26 +15,26 @@ public class ScheduleRuleManagerImpl implements ScheduleRuleManager {
 
     private static final int GROUP_SIZE = 10;
 
-    private static final String RULE_GROUP_MAIN_OTHER = "main_isYace_other_";
-    private static final String RULE_GROUP_STORE_OTHER = "store_isYace_other_";
+    private static final String RULE_GROUP_MAIN_OTHER = "main_other_";
+    private static final String RULE_GROUP_STORE_OTHER = "store_other_";
 
-    private static final String RULE_GROUP_MAIN_5000000000002 = "main_isYace_5000000000002_";
-    private static final String RULE_GROUP_STORE_5000000000002 = "store_isYace_5000000000002_";
+    private static final String RULE_GROUP_MAIN_5000000000002 = "main_5000000000002_";
+    private static final String RULE_GROUP_STORE_5000000000002 = "store_5000000000002_";
 
-    private static final String RULE_GROUP_MAIN_5000000000014 = "main_isYace_5000000000014_";
-    private static final String RULE_GROUP_STORE_5000000000014 = "store_isYace_5000000000014_";
+    private static final String RULE_GROUP_MAIN_5000000000014 = "main_5000000000014_";
+    private static final String RULE_GROUP_STORE_5000000000014 = "store_5000000000014_";
 
-    private static final String RULE_GROUP_MAIN_5000000000001 = "main_isYace_5000000000001_";
-    private static final String RULE_GROUP_STORE_5000000000001 = "store_isYace_5000000000001_";
+    private static final String RULE_GROUP_MAIN_5000000000001 = "main_5000000000001_";
+    private static final String RULE_GROUP_STORE_5000000000001 = "store_5000000000001_";
 
-    private static final String RULE_GROUP_MAIN_5000000000013 = "main_isYace_5000000000013_";
-    private static final String RULE_GROUP_STORE_5000000000013 = "store_isYace_5000000000013_";
+    private static final String RULE_GROUP_MAIN_5000000000013 = "main_5000000000013_";
+    private static final String RULE_GROUP_STORE_5000000000013 = "store_5000000000013_";
 
-    private static final String RULE_GROUP_MAIN_5000000000059 = "main_isYace_5000000000059_";
-    private static final String RULE_GROUP_STORE_5000000000059 = "store_isYace_5000000000059_";
+    private static final String RULE_GROUP_MAIN_5000000000059 = "main_5000000000059_";
+    private static final String RULE_GROUP_STORE_5000000000059 = "store_5000000000059_";
 
-    private static final String RULE_GROUP_MAIN_5000000000009 = "main_isYace_5000000000009_";
-    private static final String RULE_GROUP_STORE_5000000000009 = "store_isYace_5000000000009_";
+    private static final String RULE_GROUP_MAIN_5000000000009 = "main_5000000000009_";
+    private static final String RULE_GROUP_STORE_5000000000009 = "store_5000000000009_";
 
     @Override
     public Map<String, Long> aggregate(List<ScheduleRule> scheduleRuleList) {
